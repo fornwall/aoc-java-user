@@ -22,4 +22,3 @@ jobs:
       run: ./gradlew run
     - name: Test
       run: ./gradlew test
-      continue-on-error: true
