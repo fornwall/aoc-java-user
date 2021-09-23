@@ -18,5 +18,8 @@ jobs:
       with:
         java-version: ${{ matrix.java }}
         distribution: 'zulu'
-    - name: Build and test
+    - name: Run
+      run: ./gradlew run
+    - name: Test
       run: ./gradlew test
+      continue-on-error: true
