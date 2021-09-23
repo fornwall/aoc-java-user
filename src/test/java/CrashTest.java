@@ -8,4 +8,5 @@ public class CrashTest {
         var answer = Solver.solve(2019, 1, 1, "14");
         System.out.println(answer);
     }
+
 }
